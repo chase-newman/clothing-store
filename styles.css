@@ -1,0 +1,43 @@
+body {
+    background-color: #faedcd;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+nav {
+    background-color: #d4a373;
+}
+#logo {
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 1.2rem;
+    margin: 0;
+    padding: 1rem 2rem;
+}
+.header-text {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.text-section {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.text-section h2 {
+    font-weight: 100;
+}
+.text-section p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+a {
+    display: block;
+    margin: 10px;
+    color: #606c38;
+}
+.img-section {
+    display: flex;
+}
+
