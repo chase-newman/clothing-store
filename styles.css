@@ -3,7 +3,7 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
 }
-nav {
+#nav-top {
     background-color: #d4a373;
 }
 #logo {
@@ -14,30 +14,40 @@ nav {
     margin: 0;
     padding: 1rem 2rem;
 }
-.header-text {
-    font-size: 2rem;
-    font-weight: 600;
-}
-.text-section {
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-.text-section h2 {
-    font-weight: 100;
-}
-.text-section p {
-    font-size: 1.5rem;
-    line-height: 2rem;
-}
-a {
-    display: block;
-    margin: 10px;
-    color: #606c38;
-}
-.img-section {
+#nav-bottom {
+    background-color: #dee2e6;
     display: flex;
 }
+#nav-bottom ul {
+    display: flex;
+}
+#nav-bottom li {
+    color: #495057;
+    list-style: none;
+    padding: 0 1rem;
+}
+#nav-bottom li:nth-of-type(1) {
+    padding-left: 0;
+}
+#nav-bottom li:hover {
+    cursor: pointer;
+    color: white;
+}
+@media (max-width: 660px) {
+    #nav-bottom ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #nav-bottom li {
+        color: #495057;
+        list-style: none;
+        padding: 1rem;
+        border-bottom: 1px solid black;
+    }
+    #nav-bottom li:nth-of-type(1) {
+        padding-left: 1rem;
+    }
+}
+
 
